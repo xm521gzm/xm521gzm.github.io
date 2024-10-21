@@ -58,14 +58,14 @@ iptables -I INPUT -s 117.133.17.237 -p tcp -m multiport --dports 80,443 -j DROP
 
 <p> -i 网卡名称	匹配这块网卡流入的数据
 
-<p> -o 网卡名称	匹配这块网卡流出的数据
+-o 网卡名称	匹配这块网卡流出的数据
 
-<p> -p	匹配协议，例如：TCP，UDP，ICMP
+-p	匹配协议，例如：TCP，UDP，ICMP
 
-<p> –dport num	匹配目标端口号
+–dport num	匹配目标端口号
 
-<p> –sport num	匹配来源端口号
+–sport num	匹配来源端口号
 
-<p> -j	指定匹配到数据包后的动作，如 ACCEPT、DROP、REJECT等。
+-j	指定匹配到数据包后的动作，如 ACCEPT、DROP、REJECT等。
 
 
