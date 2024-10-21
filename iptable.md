@@ -3,30 +3,35 @@
 172.17.0.111/20
 top 20 change 1 is network part 网络部分
 bottom 12 change 0 is host part 主机部分
+```
 
-network part: 
+### network part: 
+
+```
 11111111 11111111 11110000 00000000
 255.255.240.0
-
-network address: 网络地址
-
+```
+### network address: 网络地址
+```
 172.17.0.111 "AND" with 255.255.240.0
 
 B = 10101100 00010001 00000000 11011110
 A = 11111111 11111111 11110000 00000000
 C = B "AND" A = 10101100 00010001 00000000 00000000
 C = 172.17.0.0
+```
 
-broadcast address: 广播地址 = 网络地址后12位变1
+### broadcast address: 广播地址 = 网络地址后12位变1
+```
 network address bottom 12 change 1 
 10101100 00010001 00001111 11111111
 D = 172.17.15.255
-
-finally: 
+```
+### finally: 
+```
 172.17.0.1 ~ 172.17.15.254
 172.17.0.0 network address
 172.17.15.255 broadcast address
-
 
 ```
 
