@@ -1,4 +1,6 @@
 # Jhonny's Blog
+https://github.com/xm521gzm/xm521gzm.github.io.git
+https://gitee.com/gitee18/common-technology
 
 # Markdown to HTML cmd-line tool
 
